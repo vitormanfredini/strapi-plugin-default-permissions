@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/default-permissions",
+  "name": "@strapi/strapi-plugin-default-permissions",
   "version": "1.0.0",
   "description": "Set up API permissions in the code to easily apply them later in any environment.",
   "strapi": {
@@ -15,17 +15,9 @@
   "peerDependencies": {
     "@strapi/strapi": "^4.0.0"
   },
-  "author": {
-    "name": "Vítor Manfredini",
-    "email": "vitormanfredini@gmail.com",
-    "url": "https://codemade.art.br"
-  },
+  "author": "Vítor Manfredini <vitormanfredini@gmail.com> (https://codemade.art.br)",
   "maintainers": [
-    {
-      "name": "Vítor Manfredini",
-      "email": "vitormanfredini@gmail.com",
-      "url": "https://codemade.art.br"
-    }
+    "Vítor Manfredini <vitormanfredini@gmail.com> (https://codemade.art.br)"
   ],
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
@@ -35,5 +27,19 @@
     "develop": "tsc -w",
     "build": "tsc"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "strapi-admin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitormanfredini/strapi-plugin-default-permissions.git"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "permissions"
+  ],
+  "bugs": {
+    "url": "https://github.com/vitormanfredini/strapi-plugin-default-permissions/issues"
+  },
+  "homepage": "https://github.com/vitormanfredini/strapi-plugin-default-permissions#readme"
 }
