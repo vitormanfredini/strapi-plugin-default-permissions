@@ -1,6 +1,6 @@
 {
   "name": "@vitormanfredini/strapi-plugin-default-permissions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set up API permissions in the code to easily apply them later in any environment.",
   "strapi": {
     "displayName": "Default permissions",
