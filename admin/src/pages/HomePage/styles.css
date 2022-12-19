@@ -1,0 +1,114 @@
+.containerHome {
+  position: relative;
+  padding: 40px 45px;
+  overflow: hidden;
+}
+
+.containerTable {
+  width: 100%;
+  max-width: 834px;
+  margin-top: 50px;
+  padding: 17px 15px;
+  border-radius: 4px;
+}
+
+.subtitle {
+  width: 100%;
+  max-width: 725px;
+  margin-top: 23px;
+}
+
+.rowTable {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerOne {
+  width: 50%;
+}
+
+.containerOne a {
+  cursor: pointer;
+}
+
+.ContainerTwo {
+  width: 30.5%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.containerTwoIntern {
+  width: 100%;
+  max-width: 243px;
+}
+
+.containerThree {
+  width: 15.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerThree button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  height: 40px;
+}
+
+.containerAlert {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 20px;
+}
+
+.alert {
+  width: 100%;
+  max-width: 497px;
+  margin: auto;
+}
+
+pre {
+  background-color: #000;
+  color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 130%;
+}
+
+.copyConfig {
+  display: block;
+}
+
+.emphasis {
+  background-color: #000;
+  color:#fff;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+.permissionsPageLink {
+  cursor: pointer;
+  color: rgb(40, 129, 84);
+}
+
+.warningAboutApply {
+  margin-top: 10px;
+  display: inline-block;
+  color: #727272;
+  font-size: 0.9rem;
+}
+
+.notImportant {
+  color: #7e7e7e;
+}
+
+.permissionsCopyPasteBlock {
+  display: inline-block;
+  padding: 24px 0;
+}
