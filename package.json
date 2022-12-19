@@ -1,9 +1,10 @@
 {
-  "name": "default-permissions",
-  "version": "0.0.0",
+  "name": "@strapi/plugin-default-permissions",
+  "version": "1.0.0",
   "description": "Set up API permissions in the code to easily apply them later in any environment.",
   "strapi": {
-    "name": "Default permissions",
+    "displayName": "Default permissions",
+    "name": "default-permissions",
     "description": "Set up API permissions in the code to easily apply them later in any environment.",
     "kind": "plugin"
   },
@@ -11,12 +12,19 @@
   "devDependencies": {
     "typescript": "4.6.3"
   },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
   "author": {
-    "name": "Vítor Manfredini <vitormanfredini@gmail.com>"
+    "name": "Vítor Manfredini",
+    "email": "vitormanfredini@gmail.com",
+    "url": "https://codemade.art.br"
   },
   "maintainers": [
     {
-      "name": "Vítor Manfredini <vitormanfredini@gmail.com>"
+      "name": "Vítor Manfredini",
+      "email": "vitormanfredini@gmail.com",
+      "url": "https://codemade.art.br"
     }
   ],
   "engines": {
