@@ -40,10 +40,9 @@ export default ({ strapi }: { strapi: Strapi }) => ({
       },
     });
 
-    const areRolesTheSame =
-      currentRoles.length === pluginConfig.defaultPermissions.length &&
-      currentRoles.every(role => pluginConfig.defaultPermissions.find(defaultRole => defaultRole.type == role.type));
-    if (!areRolesTheSame) {
+    const rolesArrSameLength = currentRoles.length === pluginConfig.defaultPermissions.length;
+    const rolesArrSameIdsAndTypes = currentRoles.every(role => pluginConfig.defaultPermissions.find(defaultRole => defaultRole.type == role.type && defaultRole.id == role.id));
+    if (!rolesArrSameLength || !rolesArrSameIdsAndTypes) {
       const response: DataResponseDefaultPermissions = {
         message: 'Your current roles are different than the ones in the config.',
         status: 'error'
